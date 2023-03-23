@@ -1,0 +1,23 @@
+{
+  "name": "Butterfree",
+  "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+  "ability": "Butterfree can use its sensitive antenna to detect the odors of blooming flowers six miles (ten kilometers) from its nest in search of nectar, which it carries with the hairs of its legs.",
+  "image": "https://img.favpng.com/4/8/7/butterfree-pok-mon-caterpie-beedrill-weedle-png-favpng-qi4HPERGcUNVZR16NTwh8Fh6e.jpg",
+  "footprint": "https://archives.bulbagarden.net/media/upload/a/ac/F0012.png",
+  "dexindex": "#0012",
+  "type": "Bug/Flying",
+  "subtype": "Bug/Flying",
+  "weaknesses": "Fire, Electric, Ice, Rock, Flying",
+  "gender": "male",
+  "weight": "31,978 kg",
+  "height": "2.54 cm",
+  "generation": "Generation 1",
+  "spilversion": "All versions",
+  "canEvolve": "It evolves from Metapod at Level 10, after evolving from Caterpie at Level 7.",
+  "statsHP": "60",
+  "statsAttack": "45",
+  "statsDefence": "50",
+  "statsSpecialAttack": "90",
+  "statsSpecialDefence": "80",
+  "statsSpeed": "70"
+}
