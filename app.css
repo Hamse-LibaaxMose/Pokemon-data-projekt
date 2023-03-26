@@ -1,0 +1,47 @@
+body{
+  margin: 0; 
+  background: #d9dad7; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header {
+  text-align: center;
+  background: #3e4a61; 
+  padding-top: 20px;
+  border: 3px solid;
+  margin-bottom: 20px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px
+}
+
+
+article{
+  background: #c24d2c; 
+  text-align: center;
+  border: 2px solid;
+}
+
+
+article > img{
+  width: 200px;
+
+}
+#dialog-character > img{
+  height: 200px;
+}
+
+
+footer{
+  background: #3e4a61; 
+  height: 80px;
+  text-align: center;
+  
+  
+}
+  
