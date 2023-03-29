@@ -1,9 +1,9 @@
 "use strict"
-
+// 1 
 window.addEventListener("load",start)
-
+// 2
 async function start(){
-
+                              // 3
 const arrayPokemon = await getData("https://cederdorff.github.io/dat-js/05-data/pokemons.json");
 arrayPokemon.forEach(showCharacter)
 
@@ -44,7 +44,15 @@ function charactersClicked(){
   document.querySelector("#dialog-stats-speed").textContent = pokemon.statsSpeed;
   document.querySelector("#dialog-stats-attack").textContent = pokemon.statsAttack
   document.querySelector("#dialog-stats-defence").textContent = pokemon.statsDefence;
+  document.querySelector("#dialog-subtype").textContent=pokemon.subtype;
+  document.querySelector("#dialog-spilversion").textContent=pokemon.spilversion;
+  document.querySelector("#dialog-can-evolve").textContent=pokemon.canEvolve;
+  document.querySelector("#dialog-stats-hp").textContent=pokemon.statsHP;
+  document.querySelector("#dialog-stats-special-attack").textContent=pokemon.statsSpecialAttack;
+  document.querySelector("#dialog-stats-special-defence").textContent=pokemon.statsSpecialDefence;
 
+
+  
   document.querySelector(".btn-close").addEventListener("click", closeModal)
 }
 }
@@ -52,7 +60,8 @@ function charactersClicked(){
 //closing modal
 function closeModal() {
   document.querySelector("#dialog-character").close();
-}
+}               
+              //  4
 async function getData(urlData){
   const response = await fetch(urlData)
   console.log(response)
@@ -63,26 +72,7 @@ async function getData(urlData){
 
 
 }
-// // function fetchJson(){
-// fetch('Pokemon.json')
-//     .then((response) => response.json())
-//     .then((json) => console.log(json)
-    
-//     )
-
-//     // console.log(json)
-
   
-
-//   }
-
-//   fetchJson()
-
-//   function display(data){
-//     document.querySelector("body").insertAdjacentHTML("beforeend", `<article> 
-//     <h2>${data.name}</h2>
-//     </article>`)
-  // }
 
 
 function showInformation(pokemon){
